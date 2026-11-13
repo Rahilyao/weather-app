@@ -1,0 +1,7 @@
+services:
+  weather-server:
+    build: ./server
+    container_name: weather-server
+    ports:
+      - "3000:3000"
+    restart: unless-stopped

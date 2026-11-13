@@ -1,0 +1,14 @@
+{
+  "name": "weather-server",
+  "version": "1.0.0",
+  "description": "Weather API server for the Flutter weather app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
